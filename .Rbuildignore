@@ -1,0 +1,6 @@
+^wallis\.Rproj$
+^\.Rproj\.user$
+^wallis\.Rcheck$
+^wallis.*\.tar\.gz$
+^wallis.*\.tgz$
+^LICENSE\.md$
