@@ -2,6 +2,9 @@
 
 export(empty_cells)
 export(empty_room)
+export(is_maximal_proom)
+export(is_partial_room)
+export(is_room)
 export(n_filled_cells)
 export(plot_room_square)
 export(unused_pairs)
