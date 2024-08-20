@@ -1,6 +1,6 @@
 # wallis (development version)
 
-# wallis (v0.1.0)
+# wallis 0.1.0
 
 * A new package containing functions for implementing greedy algorithms for constructing maximal partial Room squares.
 * Functions for testing if squares are partial Room squares, Room squares or maximal partial Room squares.
