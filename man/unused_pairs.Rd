@@ -4,10 +4,12 @@
 \alias{unused_pairs}
 \title{Pairs not used in a partial Room square}
 \usage{
-unused_pairs(R)
+unused_pairs(R, n)
 }
 \arguments{
 \item{R}{A partial Room square.}
+
+\item{n}{Order of R.}
 }
 \value{
 A list of pairs not used in R.

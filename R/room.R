@@ -26,14 +26,13 @@ is_room <- function(R) {
 #' Is R a maximal partial Room square?
 #'
 #' @param R A partial Room square.
+#' @param n Order of R.
 #'
 #' @return True if and only if R is a maximal partial Room square, False otherwise.
 #' @export
-is_maximal_proom <- function(R) {
+is_maximal_proom <- function(R, n) {
   
   result <- is_partial_room(R)
-  
-  n <- max(R$col)
   
   R <- R |>
     dplyr::mutate(

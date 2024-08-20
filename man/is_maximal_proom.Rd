@@ -4,10 +4,12 @@
 \alias{is_maximal_proom}
 \title{Is R a maximal partial Room square?}
 \usage{
-is_maximal_proom(R)
+is_maximal_proom(R, n)
 }
 \arguments{
 \item{R}{A partial Room square.}
+
+\item{n}{Order of R.}
 }
 \value{
 True if and only if R is a maximal partial Room square, False otherwise.
