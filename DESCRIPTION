@@ -1,6 +1,6 @@
 Package: wallis
 Title: Room squares in R
-Version: 0.0.0.9007
+Version: 0.1.0
 Authors@R: 
     person("Matthew", "Henderson", , "matthew.james.henderson@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-7949-8208"))
