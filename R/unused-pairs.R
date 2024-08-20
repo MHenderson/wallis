@@ -1,13 +1,12 @@
 #' Pairs not used in a partial Room square
 #'
 #' @param R A partial Room square.
+#' @param n Order of R.
 #'
 #' @return A list of pairs not used in R.
 #' @export
-unused_pairs <- function(R) {
+unused_pairs <- function(R, n) {
   
-  n <- max(R$row) + 1
-
   used_pairs <- R |> dplyr::select(first, second)
   
   x <- combn(0:(n - 1), 2)
