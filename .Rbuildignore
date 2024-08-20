@@ -4,3 +4,4 @@
 ^wallis.*\.tar\.gz$
 ^wallis.*\.tgz$
 ^LICENSE\.md$
+^.github$
