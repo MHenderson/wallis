@@ -5,6 +5,8 @@
 #'
 #' @return A list of pairs not used in R.
 #' @export
+#' 
+#' @importFrom utils combn
 unused_pairs <- function(R, n) {
   
   used_pairs <- R |> dplyr::select(first, second)
